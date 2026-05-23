@@ -1,0 +1,19 @@
+/* app.wxss - 所有页面共享 */
+page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  font-size: 28rpx;
+}
+
+/* 适配大屏手机 - 居中显示 */
+@media (min-width: 480px) {
+  page {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
